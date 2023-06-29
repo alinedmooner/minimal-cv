@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "devDependencies": {
+    "stylelint": "^15.9.0",
+    "stylelint-config-manzdev": "^0.0.8",
     "svgo": "2.8.0"
   },
   "dependencies": {
