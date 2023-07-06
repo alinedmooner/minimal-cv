@@ -5,12 +5,12 @@ body {
 
   font-family: Verdana, sans-serif;
   line-height: 1.5;
-  color: #444;
+  color: #DFD7BF;
   text-align: left;
   word-wrap: break-word;
   overflow-wrap: break-word;
 
-  background-color: #ede4e0;
+  background-color: #323232;
 }
 
 h1,
@@ -21,11 +21,11 @@ h5,
 h6,
 strong,
 b {
-  color: #222;
+  color: #F5F5F5;
 }
 
 a {
-  color: #000;
+  color: #F5F5F5;
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ img {
 
 code {
   padding: 2px 5px;
-  background-color: #f2f2f2;
+  background-color: #F6F1E9;
 }
 
 pre {
@@ -77,19 +77,15 @@ blockquote {
   padding: 2px 0 2px 20px;
 
   font-style: italic;
-  color: #222;
+  color: #F6F1E9;
 
   border: 1px solid #999;
 }
 
 ::selection {
   color: white;
-  background-color: #ef4444;
+  background-color: #F5F5F5;
 }
-
-/* body {
-  margin: 0 auto !important;
-} */
 
 .column {
   width: 160px;
