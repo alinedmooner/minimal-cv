@@ -2,7 +2,9 @@ import '/src/style.css'
 
 document.querySelector('#app').innerHTML = /*html*/`
   <header></header>
-  <main></main>
+  <main>
+  <div></div>
+  </main>
   <footer></footer>
 `
 
