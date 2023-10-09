@@ -5,7 +5,6 @@ markup.innerHTML = `
 
   </style>
   <section>
-    Hola
   </section>
 `;
 
