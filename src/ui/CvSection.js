@@ -2,7 +2,6 @@ const markup = document.createElement("template");
 
 markup.innerHTML = `
   <style>
-
   </style>
   <section>
   </section>
