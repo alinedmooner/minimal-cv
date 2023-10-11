@@ -5,13 +5,15 @@ markup.innerHTML = `
     h1 {
       font-family: "Mona Sans", sans-serif;
       font-size: large;
-      text-align: center; 
+      text-align: center;
+      color: white; 
     }
 
     h2 {
       font-family: "Mona Sans", sans-serif;
       font-size: medium;
-      text-align: center; 
+      text-align: center;
+      color: white;
     }
   </style>
   <header>
