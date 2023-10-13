@@ -2,8 +2,13 @@ const markup = document.createElement("template");
 
 markup.innerHTML = `
   <style>
+    h2, p {
+      color: white;
+    }
   </style>
   <section>
+    <h2>Título</h2>
+    <p>Descripción</p>
   </section>
 `;
 
