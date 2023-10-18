@@ -1,25 +1,7 @@
 const markup = document.createElement("template");
 
 markup.innerHTML = `
-  <style>
-    h1 {
-      font-family: "Mona Sans", sans-serif;
-      font-size: large;
-      text-align: center;
-      color: white; 
-    }
-
-    h2 {
-      font-family: "Mona Sans", sans-serif;
-      font-size: medium;
-      text-align: center;
-      color: white;
-    }
-  </style>
-  <header>
-    <h1>Daniel Moreno Cruz</h1>
-    <h2>@alinedmooner</h2>
-  </header>
+  <style></style>
 `;
 
 class CvHeader extends HTMLElement {
