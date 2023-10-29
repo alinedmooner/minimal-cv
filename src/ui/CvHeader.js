@@ -1,7 +1,10 @@
 const markup = document.createElement("template");
 
 markup.innerHTML = `
-  <style></style>
+  <style>
+
+  </style>
+    <h1>Minimal CV</h1>
 `;
 
 class CvHeader extends HTMLElement {
