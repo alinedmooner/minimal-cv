@@ -1,7 +1,16 @@
 const markup = document.createElement("template");
 
 markup.innerHTML = `
-  <style></style>
+  <style>
+  .main-container {
+      width: 500px;
+      height: 800px;
+      border: dashed red;
+    }
+  </style>
+  <div class="main-container">
+  Contenedor principal
+  </div>
 `;
 
 class CvSection extends HTMLElement {
