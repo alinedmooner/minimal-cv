@@ -1,2 +1,1 @@
-import "./ui/CvHeader";
-import "./ui/CvSection";
+import "./ui/MinimalCv.js";

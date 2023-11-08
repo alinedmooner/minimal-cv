@@ -2,12 +2,21 @@ const markup = document.createElement("template");
 
 markup.innerHTML = `
   <style>
-
+    :host {
+      color: blue;
+      background: black;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      margin: 0;
+      padding: 0;
+      
+    }
   </style>
     <h1>Minimal CV</h1>
 `;
 
-class CvHeader extends HTMLElement {
+class MinimalCv extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -22,4 +31,4 @@ class CvHeader extends HTMLElement {
   }
 }
 
-customElements.define("cv-header", CvHeader);
+customElements.define("minimal-cv", MinimalCv);
