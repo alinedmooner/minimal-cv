@@ -1,1 +1,1 @@
-import "./ui/MinimalCv.js";
+import "./ui/MinimalCV/MinimalCV.js";
