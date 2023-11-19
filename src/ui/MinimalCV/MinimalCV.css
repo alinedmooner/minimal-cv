@@ -26,3 +26,9 @@ section {
   background: red;
   border-radius: 20px;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
