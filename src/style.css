@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("/public/DelaGothicOne-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Gothic";
+  src: url("/public/NotoSansGothic-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pathway Gothic One";
+  src: url("/public/PathwayGothicOne-Regular.woff2") format("woff2");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100vh;
+}
