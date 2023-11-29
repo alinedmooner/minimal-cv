@@ -24,6 +24,7 @@ const markup = document.createElement('template')
 markup.innerHTML = `
 <style>${CvHead.styles}</style>
 <h1>Daniel Moreno</h1>
+<h2>@alinedmooner</h2>
 <section>
   <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint fuga ab harum debitis.</p>
@@ -31,7 +32,7 @@ markup.innerHTML = `
   <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint fuga ab harum debitis.</p>
   </div>
-  <a href="">Watch Projects</a>
+  <a href="">Watch Projects 👀</a>
 </section>
 
 `
