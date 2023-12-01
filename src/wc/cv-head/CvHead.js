@@ -27,14 +27,7 @@ markup.innerHTML = `
 <h2>@alinedmooner</h2>
 <section>
   <div>
-    <blockquote>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ut quam consectetur excepturi.
-      </p>
-      <footer>—Lorem, ipsum., 
-        <cite>Lorem, ipsum dolor.</cite>
-      </footer>
-    </blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint fuga ab harum debitis.</p>
   </div> 
   <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint fuga ab harum debitis.</p>
