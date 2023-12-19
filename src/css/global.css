@@ -22,23 +22,8 @@ body {
 }
 
 @font-face {
-  font-family: 'ABeeZee-Italic';
-  src: url("ABeeZee-Italic.woff2") format("woff2");
-}
-
-@font-face {
   font-family: 'AlbertSans-Variable';
   src: url("AlbertSans-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Nunito-Variable';
-  src: url("Nunito-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'OpenSans-Variable';
-  src: url("OpenSans-VariableFont_wdth,wght.woff2") format("woff2");
 }
 
 @font-face {
@@ -47,98 +32,8 @@ body {
 }
 
 @font-face {
-  font-family: 'BIZUDPGothic-Bold';
-  src: url("BIZUDPGothic-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'CabinCondensed-Medium';
-  src: url("CabinCondensed-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'FiraMono-Medium';
-  src: url("FiraMono-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'IBMPlexSansCondensed-Medium';
-  src: url("IBMPlexSansCondensed-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Kreon-Variable';
-  src: url("Kreon-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'LibreFranklin-Variable';
-  src: url("LibreFranklin-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'MerriweatherSans-Variable';
-  src: url("MerriweatherSans-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Merriweather-Black';
-  src: url("Merriweather-Black.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Mitr-Medium';
-  src: url("Mitr-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Mitr-Medium';
-  src: url("NotoSansVithkuqi-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Palanquin-Medium';
-  src: url("Palanquin-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'PalanquinDark-Medium';
-  src: url("PalanquinDark-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'PTSans-Bold';
-  src: url("PTSans-Bold.woff2") format("woff2");
-}
-
-@font-face {
   font-family: 'PublicSans-Variable';
   src: url("PublicSans-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'RobotoSlab-Variable';
-  src: url("RobotoSlab-VariableFont_wght.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Sarala-Bold';
-  src: url("Sarala-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'SpaceMono-Bold';
-  src: url("SpaceMono-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Ubuntu-Medium';
-  src: url("Ubuntu-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Unbounded-Variable';
-  src: url("Unbounded-VariableFont_wght.woff2") format("woff2");
 }
 
 @font-face {
@@ -146,11 +41,6 @@ body {
   src: url("Vazirmatn-VariableFont_wght.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: 'Nunito-Bold';
-  src: url("Nunito-Bold.woff2")
-  format("woff2");
-}
 
 @font-face {
   font-family: 'LibreFranklin-Bold';
@@ -199,140 +89,6 @@ h2 {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0.3em;
-}
-
-div {
-  font-family: OpenSans-Variable;
-}
-
-.showcase-container {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.showcase-container > span {
-  padding: 1em;
-}
-
-.fuente-1 {
-  font-family: ABeeZee-Italic;
-  font-size: 2em;
-}
-
-.fuente-2 {
-  font-family: AlbertSans-Variable;
-  font-size: 2em;
-}
-
-.fuente-3 {
-  font-family: Nunito-Variable;
-  font-size: 2em;
-}
-
-.fuente-4 {
-  font-family: OpenSans-Variable;
-  font-size: 2em;
-}
-
-.fuente-5 {
-  font-family: Geologica-Variable;
-  font-size: 2em;
-}
-
-.fuente-6 {
-  font-family: BIZUDPGothic-Bold;
-  font-size: 2em;
-}
-
-.fuente-7 {
-  font-family: CabinCondensed-Medium;
-  font-size: 2em;
-}
-
-.fuente-8 {
-  font-family: FiraMono-Medium;
-  font-size: 2em;
-}
-
-.fuente-9 {
-  font-family: IBMPlexSansCondensed-Medium;
-  font-size: 2em;
-}
-
-.fuente-10 {
-  font-family: Kreon-Variable;
-  font-size: 2em;
-}
-
-.fuente-11 {
-  font-family: LibreFranklin-Variable;
-  font-size: 2em;
-}
-
-.fuente-12 {
-  font-family: MerriweatherSans-Variable;
-  font-size: 2em;
-}
-
-.fuente-13 {
-  font-family: Merriweather-Black;
-  font-size: 2em;
-}
-
-.fuente-14 {
-  font-family: Mitr-Medium;
-  font-size: 2em;
-}
-
-.fuente-15 {
-  font-family: Palanquin-Medium;
-  font-size: 2em;
-}
-
-.fuente-16 {
-  font-family: PTSans-Bold;
-  font-size: 2em;
-}
-
-.fuente-17 {
-  font-family: PublicSans-Variable;
-  font-size: 2em;
-}
-
-.fuente-18 {
-  font-family: RobotoSlab-Variable;
-  font-size: 2em;
-}
-
-.fuente-19 {
-  font-family: Sarala-Bold;
-  font-size: 2em;
-}
-
-.fuente-20 {
-  font-family: SpaceMono-Bold;
-  font-size: 2em;
-}
-
-.fuente-21 {
-  font-family: Ubuntu-Medium;
-  font-size: 2em;
-}
-
-.fuente-22 {
-  font-family: Unbounded-Variable;
-  font-size: 2em;
-}
-
-.fuente-23 {
-  font-family: Vazirmatn-Variable;
-  font-size: 2em;
-}
-
-.fuente-24 {
-  font-family: Nunito-Bold;
-  font-size: 2em;
 }
 
 .card {
@@ -391,7 +147,7 @@ div {
 
 .item {
   border-bottom: 2px solid black;
-  width: 19rem;
+  width: 20rem;
   padding: 0.5em;
   margin: 0;
 }
