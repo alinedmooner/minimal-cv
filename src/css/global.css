@@ -190,6 +190,8 @@ a {
   font-size: medium;
   font-weight: 800;
   color: black;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -336,22 +338,33 @@ div {
 .card {
   background: purple;
   margin: 0.7em;
-  width: 300px;
-  height: 200px;
+  width: 20rem;
+  height: 12rem;
   border-radius: 13px;
   border: black 2px solid;
   display: flex;
   align-items: end;
-  justify-content: center;
+  justify-content: space-around;
   border-bottom: thick double black;
   border-right: thick double black;
   box-shadow: 0.08em 0.08em 0 black;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.7em 0.1em 0.2em 0.1em;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 500;
+  text-wrap: wrap;
 }
 
 .buttons-container {
   display: flex;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.3em;
 }
 
 .buttons-container > a {
@@ -373,7 +386,7 @@ div {
   border-bottom: thick double black;
   border-right: thick double black;
   box-shadow: 0.08em 0.08em 0 black;
-  width: 20rem;
+  width: 21rem;
 }
 
 .item {
@@ -420,4 +433,10 @@ footer {
 
 body {
   margin-bottom: 0;
+}
+
+.card > p {
+  width: 80%;
+  font-family: Geologica-Variable;
+  margin: 0;
 }
