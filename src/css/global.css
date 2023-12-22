@@ -94,12 +94,12 @@ h2 {
   width: 20rem;
   height: 12rem;
   border-radius: 13px;
-  border: black 2px solid;
   display: flex;
   align-items: end;
   justify-content: space-around;
   /* border-bottom: thick double black;
   border-right: thick double black; */
+  border: black 2px solid;
   box-shadow: 0.08em 0.08em 0 black;
   align-items: center;
   flex-direction: column;
@@ -205,9 +205,11 @@ nav {
 
 aside > img {
   display: none;
+  border: black 2px solid;
+  box-shadow: 0.08em 0.08em 0 black;
 }
 
-@media (width >= 1024px) {
+@media (width > 1024px) {
   section.container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -289,7 +291,8 @@ aside > img {
 
   .card {
     height: 13rem;
-    width: 22rem;
+    width: 21rem;
+    padding: 0.1em;
   }
 
   h2 {
@@ -304,11 +307,18 @@ aside > img {
     place-items: center;
   }
 
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .social-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
   }
 
   h3 {
@@ -341,5 +351,12 @@ aside > img {
 
   .item > p {
     font-size: 1.2rem;
+  }
+
+  .social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
