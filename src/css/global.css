@@ -83,6 +83,10 @@ a {
   background-color: transparent;
 }
 
+a:hover {
+  background-color: #A1EEBD;
+}
+
 div.buttons-container > a:nth-child(1) {
   background-color: transparent;
 }
@@ -124,6 +128,54 @@ div > .item:nth-child(5) {
 
 div > .item:nth-child(6) {
   background-color: transparent;
+}
+
+div > .item:nth-child(1):hover {
+  background-color: #FF8080;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(2):hover {
+  background-color: #A6F6FF;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(3):hover {
+  background-color: #F4E869;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(4):hover {
+  background-color: #A6FF96;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(5):hover {
+  background-color: #FF6969;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(6):hover {
+  background-color: #BEADFA;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(7):hover {
+  background-color: #F3AA60;
+  transition-duration: 144ms;
+
+}
+
+div > .item:nth-child(8):hover {
+  background-color: #41644A;
+  transition-duration: 144ms;
+
 }
 
 
@@ -170,6 +222,10 @@ div > .item.last {
 .buttons-container > a {
   width: 3em;
   margin: 0.5em;
+}
+
+.buttons-container > a.test:hover {
+  background-color: white;
 }
 
 .container {
@@ -287,12 +343,34 @@ aside > img {
   color: white;
 }
 
-.card:nth-child(1) {
-  background-color: transparent;
+.card:nth-child(1):hover {
+  transition-duration: 144ms;
+  background-color: #F2AFEF;
 }
 
-.card:nth-child(2) {
-  background-color: transparent;
+.card:nth-child(2):hover {
+  transition-duration: 144ms;
+  background-color: #7BD3EA;
+}
+
+.card:nth-child(3):hover {
+  transition-duration: 144ms;
+  background-color: #F6ECA9;
+}
+
+.card:nth-child(4):hover {
+  transition-duration: 144ms;
+  background-color: #BF3131;
+}
+
+.card:nth-child(5):hover {
+  transition-duration: 144ms;
+  background-color: #A367B1;
+}
+
+.card:nth-child(6):hover {
+  transition-duration: 144ms;
+  background-color: #FB8B24;
 }
 
 @media (width > 1024px) {
@@ -304,12 +382,22 @@ aside > img {
   nav {
     border-bottom: solid black 2px;
     padding: 1em;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     position: sticky;
     top: 0;
     background-color: white;
     z-index: 1;
+    height: 2.1em;
+  }
+
+  nav > a {
+    width: fit-content;
+  }
+
+  nav > a:hover {
+    background-color: white;
+    border-bottom: solid 3px black;
   }
   
   aside > img {
@@ -379,7 +467,7 @@ aside > img {
   }
 
   nav > a {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .card {
