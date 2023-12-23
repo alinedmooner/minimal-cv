@@ -1,33 +1,33 @@
 @font-face {
   font-family: 'AlbertSans-Variable';
-  src: url("AlbertSans-VariableFont_wght.woff2") format("woff2");
+  src: url("/AlbertSans-VariableFont_wght.woff2") format("woff2");
 }
 
 @font-face {
   font-family: 'Geologica-Variable';
-  src: url("Geologica-VariableFont_CRSV,SHRP,slnt,wght.woff2") format("woff2");
+  src: url("/Geologica-VariableFont_CRSV,SHRP,slnt,wght.woff2") format("woff2");
 }
 
 @font-face {
   font-family: 'PublicSans-Variable';
-  src: url("PublicSans-VariableFont_wght.woff2") format("woff2");
+  src: url("/PublicSans-VariableFont_wght.woff2") format("woff2");
 }
 
 @font-face {
   font-family: 'Vazirmatn-Variable';
-  src: url("Vazirmatn-VariableFont_wght.woff2") format("woff2");
+  src: url("/Vazirmatn-VariableFont_wght.woff2") format("woff2");
 }
 
 
 @font-face {
   font-family: 'LibreFranklin-Bold';
-  src: url("LibreFranklin-Bold.woff2")
+  src: url("/LibreFranklin-Bold.woff2")
   format("woff2");
 }
 
 @font-face {
   font-family: "Vazirmatn-Bold";
-  src: url("Vazirmatn-Bold.woff2");
+  src: url("/Vazirmatn-Bold.woff2");
 }
 
 .test {
